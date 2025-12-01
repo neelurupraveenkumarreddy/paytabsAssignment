@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
 
-@FeignClient(name = "core-bank", url = "http://localhost:8081/internal")
+@FeignClient(name = "core-bank", url = "https://paytabsassignment-1.onrender.com/internal")
 public interface CoreBankClient {
 
     // Verify PIN
