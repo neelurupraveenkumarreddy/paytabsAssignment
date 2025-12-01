@@ -8,7 +8,7 @@ A Proof-of-Concept full-stack banking application that simulates essential banki
 
 | Layer       | Technology Used |
 |------------|----------------|
-| Frontend   | React, Fetch API, Cookies, CSS |
+| Frontend   | ReactJS, Fetch API, Cookies, CSS |
 | Backend    | Spring Boot (Java 21), Spring Security, JWT |
 | Gateway    | Spring Cloud OpenFeign |
 | Database   | H2 |
@@ -18,10 +18,7 @@ A Proof-of-Concept full-stack banking application that simulates essential banki
 
 ## 🧩 Architecture Overview
 
-┌─────────────┐        ┌──────────────┐        ┌─────────────┐
-│  Frontend   │ <----> │ API Gateway  │ <----> │ Core Banking │
-│ (React)     │        │ (Spring Boot)│        │  Service     │
-└─────────────┘        └──────────────┘        └─────────────┘
+<img width="685" height="130" alt="image" src="https://github.com/user-attachments/assets/a69916e5-3af8-46b0-bdd8-9d4e3cae3896" />
 
 ## ✨ Features
 
@@ -66,19 +63,11 @@ The backend consists of **two Spring Boot services**:
 
 ---
 
-### 📌 Prerequisites
-
-- Java 21
-- Maven 3.8+
-- H2
-- Git
-
 ```bash
 cd backend\system1\bank
 mvn clean install
 mvn spring-boot:run
 ```
 Same for system 2(core Banking Service)
-
-###Working Link 
+### Working Link 
 https://paytab-assgt-frontend.vercel.app/login
